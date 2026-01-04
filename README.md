@@ -1,530 +1,218 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syed Musadiq Hussain - AI/ML Engineer</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+<div align="center">
+
+# 👋 Hi there, I'm Syed Musadiq Hussain
+
+### 🚀 AI/ML Engineer | Building Intelligent Agents & Computer Vision Systems
+
+[![Email](https://img.shields.io/badge/Email-syedmusadiqhussain9%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:syedmusadiqhussain9@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syed-musadiq-hussain-9ba797336/)
+[![GitHub](https://img.shields.io/badge/GitHub-syedmusadiqhussain-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/syedmusadiqhussain)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/syedmusadiqhussain)
+[![YouTube](https://img.shields.io/badge/YouTube-Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@SyedMusadiqHussain-v8w)
+
+![Profile Views](https://komarev.com/ghpvc/?username=syedmusadiqhussain&color=blueviolet&style=for-the-badge)
+
+</div>
+
+---
+
+## 🚀 About Me
+
+```python
+class MusadiqHussain:
+    def __init__(self):
+        self.name = "Syed Musadiq Hussain"
+        self.role = "AI/ML Engineer"
+        self.location = "Peshawar, Pakistan"
+        self.email = "syedmusadiqhussain9@gmail.com"
+        
+    def get_tech_stack(self):
+        return {
+            "ai_agents": ["CrewAI", "LangGraph", "LangChain", "AutoGen"],
+            "deep_learning": ["TensorFlow", "PyTorch", "Keras"],
+            "machine_learning": ["scikit-learn", "XGBoost"],
+            "computer_vision": ["OpenCV", "YOLO", "MediaPipe"],
+            "automation": ["n8n", "Make", "Zapier"],
+            "tools": ["Docker", "FastAPI", "Streamlit", "Git"]
         }
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #fff;
-            padding: 20px;
-            line-height: 1.6;
-        }
+musadiq = MusadiqHussain()
+print(f"👨‍💻 {musadiq.name} | {musadiq.role}")
+```
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            border: 1px solid rgba(255, 255, 255, 0.18);
-        }
+I'm a passionate **AI/ML Engineer** specializing in cutting-edge artificial intelligence technologies. My expertise spans across **AI Agents**, **Computer Vision**, **Deep Learning**, and **Intelligent Automation**.
 
-        .header {
-            text-align: center;
-            margin-bottom: 50px;
-            animation: fadeInDown 1s ease-in-out;
-        }
+🎯 **Mission**: Creating cutting-edge AI solutions that bridge the gap between research and production.
 
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+---
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+## 🛠️ Tech Stack
 
-        @keyframes slideInLeft {
-            from {
-                opacity: 0;
-                transform: translateX(-50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
+### AI & Machine Learning
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
-        .profile-img {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            border: 5px solid #fff;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            margin-bottom: 20px;
-            background: linear-gradient(45deg, #667eea, #764ba2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 72px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+### AI Agents & LLM Frameworks
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-6B46C1?style=for-the-badge)
+![LangGraph](https://img.shields.io/badge/LangGraph-2E8B57?style=for-the-badge)
+![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white)
 
-        h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
+### Development Tools
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-        .tagline {
-            font-size: 1.5em;
-            opacity: 0.9;
-            margin-bottom: 30px;
-        }
+---
 
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-bottom: 30px;
-        }
+## 💼 What I'm Working On
 
-        .social-btn {
-            padding: 12px 30px;
-            background: rgba(255, 255, 255, 0.2);
-            border: 2px solid #fff;
-            border-radius: 50px;
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-        }
+### 🤖 AI Agents & Autonomous Systems
+- Building multi-agent systems using **CrewAI** and **LangGraph**
+- Developing intelligent agents with reasoning and planning capabilities
+- Implementing advanced RAG (Retrieval Augmented Generation) systems
+- Creating custom AI tools and function calling implementations
 
-        .social-btn:hover {
-            background: #fff;
-            color: #667eea;
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
+### 👁️ Computer Vision Projects
+- Real-time object detection using **YOLO** and **OpenCV**
+- Image segmentation and classification with **PyTorch** and **TensorFlow**
+- Custom CNN architectures for specialized vision tasks
+- Video analytics and processing pipelines
 
-        .section {
-            margin-bottom: 40px;
-            animation: fadeInUp 1s ease-in-out;
-        }
+### 🧠 Deep Learning & ML
+- Neural network architectures (CNN, RNN, LSTM, Transformers)
+- Transfer learning and fine-tuning pre-trained models
+- Model optimization and deployment
+- Custom loss functions and training techniques
 
-        .section-title {
-            font-size: 2em;
-            margin-bottom: 20px;
-            border-bottom: 3px solid #fff;
-            padding-bottom: 10px;
-            display: inline-block;
-        }
+### 🔄 Intelligent Automation
+- Workflow automation using **n8n** with AI integration
+- API integrations and webhook configurations
+- Business process automation with LLM integration
 
-        .about-content {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 25px;
-            border-radius: 15px;
-            font-size: 1.1em;
-            line-height: 1.8;
-        }
+---
 
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
+## 🔥 Featured Projects
 
-        .skill-card {
-            background: rgba(255, 255, 255, 0.15);
-            padding: 25px;
-            border-radius: 15px;
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
-        }
+### 🤖 Multi-Agent Research System
+Autonomous research platform using **CrewAI** with specialized agents for web scraping, analysis, and report generation.
+- **Tech**: CrewAI, LangChain, GPT-4, Serper API
+- **Features**: Multi-agent orchestration, autonomous research, PDF generation
 
-        .skill-card:hover {
-            transform: translateY(-5px);
-            border-color: #fff;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
+### 👁️ Real-Time Object Detection
+Production-grade computer vision system achieving **95%+ accuracy** for object detection and tracking.
+- **Tech**: PyTorch, OpenCV, YOLO v8, FastAPI
+- **Features**: Real-time processing, custom model training, REST API
 
-        .skill-card h3 {
-            font-size: 1.3em;
-            margin-bottom: 15px;
-            color: #ffd700;
-        }
+### 🧠 Advanced RAG System
+Intelligent document Q&A with semantic search and multi-document reasoning capabilities.
+- **Tech**: LangGraph, Pinecone, ChromaDB, Transformers
+- **Features**: Semantic search, citation tracking, conversation memory
 
-        .skill-tag {
-            display: inline-block;
-            background: rgba(255, 255, 255, 0.2);
-            padding: 6px 15px;
-            border-radius: 20px;
-            margin: 5px;
-            font-size: 0.9em;
-        }
+### 🔄 AI Workflow Automation
+End-to-end automation platform integrating AI models for business optimization.
+- **Tech**: n8n, OpenAI API, PostgreSQL, Webhooks
+- **Features**: Conditional logic, error handling, monitoring dashboard
 
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-            margin-top: 20px;
-        }
+### 📊 Predictive Analytics Engine
+ML-powered analytics system using TensorFlow and scikit-learn for forecasting and decision support.
+- **Tech**: TensorFlow, scikit-learn, Pandas, Plotly
+- **Features**: Time series forecasting, interactive dashboards
 
-        .project-card {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
-            padding: 30px;
-            border-radius: 15px;
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            transition: all 0.3s ease;
-            animation: slideInLeft 1s ease-in-out;
-        }
+### 🎯 Custom CNN Classifier
+Specialized convolutional neural network for image classification with transfer learning.
+- **Tech**: PyTorch, Keras, ResNet, Data Augmentation
+- **Features**: State-of-the-art accuracy, transfer learning
 
-        .project-card:hover {
-            transform: translateY(-5px) scale(1.02);
-            border-color: #ffd700;
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
-        }
+---
 
-        .project-card h3 {
-            font-size: 1.5em;
-            margin-bottom: 15px;
-            color: #ffd700;
-        }
+## 🎯 Core Competencies
 
-        .stats-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
+**AI Agents & LLM Engineering**
+- Multi-Agent System Architecture
+- RAG Implementation & Optimization
+- Prompt Engineering & Chain-of-Thought
+- Agent Orchestration & Tool Integration
 
-        .stat-box {
-            background: rgba(255, 255, 255, 0.15);
-            padding: 30px;
-            border-radius: 15px;
-            text-align: center;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-        }
+**Computer Vision**
+- Object Detection & Segmentation
+- Image Classification & Recognition
+- Video Processing & Real-time Analytics
+- OCR & Document Understanding
 
-        .stat-number {
-            font-size: 3em;
-            font-weight: bold;
-            color: #ffd700;
-            display: block;
-        }
+**Machine Learning & Deep Learning**
+- Neural Network Architectures
+- TensorFlow & PyTorch Development
+- Model Training & Optimization
+- Transfer Learning & Fine-tuning
 
-        .stat-label {
-            font-size: 1.1em;
-            opacity: 0.9;
-            margin-top: 10px;
-        }
+**MLOps & Deployment**
+- Docker Containerization
+- API Development (FastAPI, Flask)
+- Model Versioning & Tracking
+- Cloud Deployment (AWS, GCP)
 
-        .contact-info {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 15px;
-            margin-top: 20px;
-        }
+---
 
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 15px;
-            font-size: 1.1em;
-        }
+## 📊 GitHub Statistics
 
-        .contact-icon {
-            font-size: 1.5em;
-        }
+<div align="center">
 
-        .footer {
-            text-align: center;
-            margin-top: 50px;
-            padding-top: 30px;
-            border-top: 2px solid rgba(255, 255, 255, 0.3);
-            font-size: 1.1em;
-        }
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=syedmusadiqhussain&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF)
 
-        .tech-stack {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            justify-content: center;
-            margin-top: 20px;
-        }
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=syedmusadiqhussain&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=F8D866)
 
-        .tech-badge {
-            background: rgba(255, 255, 255, 0.2);
-            padding: 10px 20px;
-            border-radius: 25px;
-            font-weight: bold;
-            border: 2px solid rgba(255, 255, 255, 0.4);
-            transition: all 0.3s ease;
-        }
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=syedmusadiqhussain&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF)
 
-        .tech-badge:hover {
-            background: #fff;
-            color: #667eea;
-            transform: scale(1.1);
-        }
+</div>
 
-        .highlight {
-            color: #ffd700;
-            font-weight: bold;
-        }
+---
 
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2em;
-            }
-            
-            .tagline {
-                font-size: 1.2em;
-            }
-            
-            .container {
-                padding: 20px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <div class="profile-img">👨‍💻</div>
-            <h1>Syed Musadiq Hussain</h1>
-            <p class="tagline">🚀 AI/ML Engineer | Building Intelligent Agents & Computer Vision Systems</p>
-            
-            <div class="social-links">
-                <a href="https://github.com/syedmusadiqhussain" class="social-btn" target="_blank">
-                    💻 GitHub
-                </a>
-                <a href="https://www.linkedin.com/in/syed-musadiq-hussain-9ba797336/" class="social-btn" target="_blank">
-                    💼 LinkedIn
-                </a>
-                <a href="https://www.kaggle.com/syedmusadiqhussain" class="social-btn" target="_blank">
-                    📊 Kaggle
-                </a>
-                <a href="https://www.youtube.com/@SyedMusadiqHussain-v8w" class="social-btn" target="_blank">
-                    🎥 YouTube
-                </a>
-                <a href="mailto:syedmusadiqhussain9@gmail.com" class="social-btn">
-                    📧 Email
-                </a>
-            </div>
-        </div>
+## 🏆 Achievements
 
-        <div class="section">
-            <h2 class="section-title">👨‍💼 About Me</h2>
-            <div class="about-content">
-                <p>
-                    I'm a passionate <span class="highlight">AI/ML Engineer</span> specializing in cutting-edge artificial intelligence technologies. 
-                    My expertise spans across <span class="highlight">AI Agents</span>, <span class="highlight">Computer Vision</span>, 
-                    <span class="highlight">Deep Learning</span>, and <span class="highlight">Intelligent Automation</span>.
-                </p>
-                <br>
-                <p>
-                    I build production-ready AI solutions using frameworks like <span class="highlight">CrewAI</span>, 
-                    <span class="highlight">LangGraph</span>, and <span class="highlight">n8n</span> for autonomous agent systems, 
-                    combined with powerful ML libraries like <span class="highlight">TensorFlow</span>, 
-                    <span class="highlight">PyTorch</span>, <span class="highlight">scikit-learn</span>, and 
-                    <span class="highlight">OpenCV</span> for sophisticated machine learning applications.
-                </p>
-                <br>
-                <p>
-                    🎯 <strong>Mission:</strong> To create intelligent systems that solve real-world problems through innovative AI solutions.
-                </p>
-            </div>
-        </div>
+- 🌟 Built 20+ production-ready AI/ML projects
+- 📚 Specialized in AI agents and autonomous systems
+- 🎓 Expert in computer vision and deep learning
+- 💡 Active contributor to AI/ML community
 
-        <div class="section">
-            <h2 class="section-title">💻 Tech Stack</h2>
-            <div class="tech-stack">
-                <span class="tech-badge">🤖 CrewAI</span>
-                <span class="tech-badge">🔗 LangGraph</span>
-                <span class="tech-badge">⚡ LangChain</span>
-                <span class="tech-badge">🔄 n8n</span>
-                <span class="tech-badge">🧠 TensorFlow</span>
-                <span class="tech-badge">🔥 PyTorch</span>
-                <span class="tech-badge">📊 scikit-learn</span>
-                <span class="tech-badge">👁️ OpenCV</span>
-                <span class="tech-badge">🎯 YOLO</span>
-                <span class="tech-badge">🐍 Python</span>
-                <span class="tech-badge">🐳 Docker</span>
-                <span class="tech-badge">⚡ FastAPI</span>
-                <span class="tech-badge">🎨 Streamlit</span>
-                <span class="tech-badge">☁️ AWS/GCP</span>
-            </div>
-        </div>
+---
 
-        <div class="section">
-            <h2 class="section-title">🎯 Core Competencies</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>🤖 AI Agents & LLMs</h3>
-                    <div class="skill-tag">Multi-Agent Systems</div>
-                    <div class="skill-tag">CrewAI</div>
-                    <div class="skill-tag">LangGraph</div>
-                    <div class="skill-tag">RAG Systems</div>
-                    <div class="skill-tag">Prompt Engineering</div>
-                    <div class="skill-tag">Agent Orchestration</div>
-                </div>
+## 🌐 Connect With Me
 
-                <div class="skill-card">
-                    <h3>👁️ Computer Vision</h3>
-                    <div class="skill-tag">Object Detection</div>
-                    <div class="skill-tag">Image Segmentation</div>
-                    <div class="skill-tag">OpenCV</div>
-                    <div class="skill-tag">YOLO</div>
-                    <div class="skill-tag">Video Processing</div>
-                    <div class="skill-tag">OCR</div>
-                </div>
+<div align="center">
 
-                <div class="skill-card">
-                    <h3>🧠 Deep Learning</h3>
-                    <div class="skill-tag">Neural Networks</div>
-                    <div class="skill-tag">TensorFlow</div>
-                    <div class="skill-tag">PyTorch</div>
-                    <div class="skill-tag">CNN/RNN/LSTM</div>
-                    <div class="skill-tag">Transfer Learning</div>
-                    <div class="skill-tag">Model Optimization</div>
-                </div>
+| Platform | Link |
+|----------|------|
+| 📧 **Email** | [syedmusadiqhussain9@gmail.com](mailto:syedmusadiqhussain9@gmail.com) |
+| 💼 **LinkedIn** | [Syed Musadiq Hussain](https://www.linkedin.com/in/syed-musadiq-hussain-9ba797336/) |
+| 💻 **GitHub** | [@syedmusadiqhussain](https://github.com/syedmusadiqhussain) |
+| 📊 **Kaggle** | [syedmusadiqhussain](https://www.kaggle.com/syedmusadiqhussain) |
+| 🎥 **YouTube** | [@SyedMusadiqHussain-v8w](https://www.youtube.com/@SyedMusadiqHussain-v8w) |
 
-                <div class="skill-card">
-                    <h3>🔄 Automation & MLOps</h3>
-                    <div class="skill-tag">n8n Workflows</div>
-                    <div class="skill-tag">CI/CD Pipelines</div>
-                    <div class="skill-tag">Docker</div>
-                    <div class="skill-tag">API Development</div>
-                    <div class="skill-tag">Cloud Deployment</div>
-                    <div class="skill-tag">Model Versioning</div>
-                </div>
-            </div>
-        </div>
+</div>
 
-        <div class="section">
-            <h2 class="section-title">🚀 Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>🤖 Multi-Agent Research System</h3>
-                    <p>Built an autonomous research platform using CrewAI with multiple specialized agents for web scraping, data analysis, and comprehensive report generation.</p>
-                    <br>
-                    <p><strong>Tech:</strong> CrewAI, LangChain, GPT-4, Serper API</p>
-                </div>
+---
 
-                <div class="project-card">
-                    <h3>👁️ Real-Time Object Detection</h3>
-                    <p>Developed a production-grade computer vision system for real-time object detection and tracking with 95%+ accuracy using YOLO and OpenCV.</p>
-                    <br>
-                    <p><strong>Tech:</strong> PyTorch, OpenCV, YOLO v8, FastAPI</p>
-                </div>
+## 💡 Open For
 
-                <div class="project-card">
-                    <h3>🧠 Advanced RAG System</h3>
-                    <p>Created an intelligent document Q&A system with semantic search, multi-document reasoning, and conversation memory using LangGraph.</p>
-                    <br>
-                    <p><strong>Tech:</strong> LangGraph, Pinecone, ChromaDB, Transformers</p>
-                </div>
+- 💼 Freelance AI/ML Projects
+- 🤝 Open Source Collaborations  
+- 🎓 Mentoring & Knowledge Sharing
+- 💡 Research Partnerships
+- 🚀 Innovative AI Projects
 
-                <div class="project-card">
-                    <h3>🔄 AI Workflow Automation</h3>
-                    <p>Designed end-to-end automation platform with n8n integrating multiple APIs and AI models for business process optimization.</p>
-                    <br>
-                    <p><strong>Tech:</strong> n8n, OpenAI API, PostgreSQL, Webhooks</p>
-                </div>
+---
 
-                <div class="project-card">
-                    <h3>📊 Predictive Analytics Engine</h3>
-                    <p>Built ML-powered analytics system using TensorFlow and scikit-learn for forecasting and decision support with interactive dashboards.</p>
-                    <br>
-                    <p><strong>Tech:</strong> TensorFlow, scikit-learn, Pandas, Plotly</p>
-                </div>
+<div align="center">
 
-                <div class="project-card">
-                    <h3>🎯 Custom CNN Classifier</h3>
-                    <p>Developed specialized convolutional neural network for image classification with transfer learning achieving state-of-the-art results.</p>
-                    <br>
-                    <p><strong>Tech:</strong> PyTorch, Keras, ResNet, Data Augmentation</p>
-                </div>
-            </div>
-        </div>
+### ⭐ Show Some Love!
 
-        <div class="section">
-            <h2 class="section-title">📈 Achievements & Stats</h2>
-            <div class="stats-container">
-                <div class="stat-box">
-                    <span class="stat-number">20+</span>
-                    <span class="stat-label">AI/ML Projects</span>
-                </div>
-                <div class="stat-box">
-                    <span class="stat-number">15+</span>
-                    <span class="stat-label">Technologies Mastered</span>
-                </div>
-                <div class="stat-box">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label">Production Ready</span>
-                </div>
-                <div class="stat-box">
-                    <span class="stat-number">∞</span>
-                    <span class="stat-label">Learning & Growing</span>
-                </div>
-            </div>
-        </div>
+**Made with ❤️ and lots of ☕ by Syed Musadiq Hussain**
 
-        <div class="section">
-            <h2 class="section-title">📫 Get In Touch</h2>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <span class="contact-icon">📧</span>
-                    <span><strong>Email:</strong> syedmusadiqhussain9@gmail.com</span>
-                </div>
-                <div class="contact-item">
-                    <span class="contact-icon">💻</span>
-                    <span><strong>GitHub:</strong> github.com/syedmusadiqhussain</span>
-                </div>
-                <div class="contact-item">
-                    <span class="contact-icon">💼</span>
-                    <span><strong>LinkedIn:</strong> Syed Musadiq Hussain</span>
-                </div>
-                <div class="contact-item">
-                    <span class="contact-icon">📊</span>
-                    <span><strong>Kaggle:</strong> kaggle.com/syedmusadiqhussain</span>
-                </div>
-                <div class="contact-item">
-                    <span class="contact-icon">🎥</span>
-                    <span><strong>YouTube:</strong> @SyedMusadiqHussain-v8w</span>
-                </div>
-            </div>
-        </div>
+![Visitor Count](https://profile-counter.glitch.me/syedmusadiqhussain/count.svg)
 
-        <div class="footer">
-            <p>💡 <em>"Building the future with AI, one model at a time."</em></p>
-            <br>
-            <p>⭐ Open for collaborations and exciting AI projects!</p>
-            <br>
-            <p>Made with ❤️ and lots of ☕ by Syed Musadiq Hussain</p>
-        </div>
-    </div>
-</body>
-</html>
+</div>
