@@ -1,218 +1,147 @@
 <div align="center">
 
-# 👋 Hi there, I'm Syed Musadiq Hussain
+# 👋 Hi, I'm **Syed Musadiq Hussain**
 
-### 🚀 AI/ML Engineer | Building Intelligent Agents & Computer Vision Systems
+### 🚀 AI / ML Engineer | AI Agents • Computer Vision • LLM Systems
 
-[![Email](https://img.shields.io/badge/Email-syedmusadiqhussain9%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:syedmusadiqhussain9@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syed-musadiq-hussain-9ba797336/)
-[![GitHub](https://img.shields.io/badge/GitHub-syedmusadiqhussain-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/syedmusadiqhussain)
-[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/syedmusadiqhussain)
-[![YouTube](https://img.shields.io/badge/YouTube-Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@SyedMusadiqHussain-v8w)
+[![Email](https://img.shields.io/badge/Email-syedmusadiqhussain9%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:syedmusadiqhussain9@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/syed-musadiq-hussain-9ba797336/)
+[![GitHub](https://img.shields.io/badge/GitHub-syedmusadiqhussain-181717?style=for-the-badge&logo=github)](https://github.com/syedmusadiqhussain)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/syedmusadiqhussain)
 
-![Profile Views](https://komarev.com/ghpvc/?username=syedmusadiqhussain&color=blueviolet&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=syedmusadiqhussain&style=for-the-badge)
 
 </div>
 
 ---
 
-## 🚀 About Me
+## 🧠 About Me
 
-```python
-class MusadiqHussain:
-    def __init__(self):
-        self.name = "Syed Musadiq Hussain"
-        self.role = "AI/ML Engineer"
-        self.location = "Peshawar, Pakistan"
-        self.email = "syedmusadiqhussain9@gmail.com"
-        
-    def get_tech_stack(self):
-        return {
-            "ai_agents": ["CrewAI", "LangGraph", "LangChain", "AutoGen"],
-            "deep_learning": ["TensorFlow", "PyTorch", "Keras"],
-            "machine_learning": ["scikit-learn", "XGBoost"],
-            "computer_vision": ["OpenCV", "YOLO", "MediaPipe"],
-            "automation": ["n8n", "Make", "Zapier"],
-            "tools": ["Docker", "FastAPI", "Streamlit", "Git"]
-        }
+I am an **AI/ML Engineer** focused on building **production-grade intelligent systems**.  
+My expertise spans **AI Agents, Large Language Models (LLMs), Computer Vision, and Deep Learning**, with a strong emphasis on scalability, automation, and real-world impact.
 
-musadiq = MusadiqHussain()
-print(f"👨‍💻 {musadiq.name} | {musadiq.role}")
-```
-
-I'm a passionate **AI/ML Engineer** specializing in cutting-edge artificial intelligence technologies. My expertise spans across **AI Agents**, **Computer Vision**, **Deep Learning**, and **Intelligent Automation**.
-
-🎯 **Mission**: Creating cutting-edge AI solutions that bridge the gap between research and production.
+🎯 **Mission:** Transform AI research into deployable, reliable, and intelligent products.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Technical Skills
 
-### AI & Machine Learning
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+### 🤖 AI & Machine Learning
+- Machine Learning & Deep Learning
+- CNNs, RNNs, LSTMs, Transformers
+- Transfer Learning & Fine-Tuning
+- Model Optimization & Evaluation
 
-### AI Agents & LLM Frameworks
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![CrewAI](https://img.shields.io/badge/CrewAI-6B46C1?style=for-the-badge)
-![LangGraph](https://img.shields.io/badge/LangGraph-2E8B57?style=for-the-badge)
-![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white)
-
-### Development Tools
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+**Frameworks:**  
+TensorFlow · PyTorch · Keras · scikit-learn · OpenCV
 
 ---
 
-## 💼 What I'm Working On
+### 🧩 AI Agents & LLM Engineering
+- Multi-Agent System Design
+- RAG (Retrieval-Augmented Generation)
+- Prompt Engineering & Tool Calling
+- Memory, Planning & Reasoning Agents
 
-### 🤖 AI Agents & Autonomous Systems
-- Building multi-agent systems using **CrewAI** and **LangGraph**
-- Developing intelligent agents with reasoning and planning capabilities
-- Implementing advanced RAG (Retrieval Augmented Generation) systems
-- Creating custom AI tools and function calling implementations
+**Tools:**  
+LangChain · CrewAI · LangGraph · ChromaDB · Pinecone
 
-### 👁️ Computer Vision Projects
-- Real-time object detection using **YOLO** and **OpenCV**
-- Image segmentation and classification with **PyTorch** and **TensorFlow**
-- Custom CNN architectures for specialized vision tasks
-- Video analytics and processing pipelines
+---
 
-### 🧠 Deep Learning & ML
-- Neural network architectures (CNN, RNN, LSTM, Transformers)
-- Transfer learning and fine-tuning pre-trained models
-- Model optimization and deployment
-- Custom loss functions and training techniques
+### 👁 Computer Vision
+- Object Detection & Tracking (YOLO)
+- Image Classification & Segmentation
+- Video Analytics Pipelines
+- OCR & Visual Understanding
 
-### 🔄 Intelligent Automation
-- Workflow automation using **n8n** with AI integration
-- API integrations and webhook configurations
-- Business process automation with LLM integration
+---
+
+### 🚀 MLOps & Deployment
+- REST APIs (FastAPI, Flask)
+- Dockerized AI Services
+- Model Versioning & Experiment Tracking
+- Cloud Deployment (AWS / GCP concepts)
+
+---
+
+## 💼 Current Work
+
+- 🤖 Autonomous AI Agent Systems
+- 🧠 LLM-based Reasoning & RAG Pipelines
+- 👁 Real-Time Computer Vision Applications
+- 🔄 AI-Powered Workflow Automation
 
 ---
 
 ## 🔥 Featured Projects
 
 ### 🤖 Multi-Agent Research System
-Autonomous research platform using **CrewAI** with specialized agents for web scraping, analysis, and report generation.
-- **Tech**: CrewAI, LangChain, GPT-4, Serper API
-- **Features**: Multi-agent orchestration, autonomous research, PDF generation
+Autonomous research platform with task-specific AI agents.
 
-### 👁️ Real-Time Object Detection
-Production-grade computer vision system achieving **95%+ accuracy** for object detection and tracking.
-- **Tech**: PyTorch, OpenCV, YOLO v8, FastAPI
-- **Features**: Real-time processing, custom model training, REST API
+**Tech:** CrewAI, LangChain, GPT-4  
+**Features:** Autonomous research, agent orchestration, report generation
+
+---
+
+### 👁 Real-Time Object Detection
+High-performance object detection & tracking system.
+
+**Tech:** PyTorch, YOLOv8, OpenCV, FastAPI  
+**Features:** Real-time inference, custom training, REST APIs
+
+---
 
 ### 🧠 Advanced RAG System
-Intelligent document Q&A with semantic search and multi-document reasoning capabilities.
-- **Tech**: LangGraph, Pinecone, ChromaDB, Transformers
-- **Features**: Semantic search, citation tracking, conversation memory
+Intelligent document-based Q&A system.
+
+**Tech:** LangGraph, ChromaDB, Transformers  
+**Features:** Semantic search, multi-doc reasoning, memory
+
+---
 
 ### 🔄 AI Workflow Automation
-End-to-end automation platform integrating AI models for business optimization.
-- **Tech**: n8n, OpenAI API, PostgreSQL, Webhooks
-- **Features**: Conditional logic, error handling, monitoring dashboard
+End-to-end AI-driven business automation.
 
-### 📊 Predictive Analytics Engine
-ML-powered analytics system using TensorFlow and scikit-learn for forecasting and decision support.
-- **Tech**: TensorFlow, scikit-learn, Pandas, Plotly
-- **Features**: Time series forecasting, interactive dashboards
-
-### 🎯 Custom CNN Classifier
-Specialized convolutional neural network for image classification with transfer learning.
-- **Tech**: PyTorch, Keras, ResNet, Data Augmentation
-- **Features**: State-of-the-art accuracy, transfer learning
-
----
-
-## 🎯 Core Competencies
-
-**AI Agents & LLM Engineering**
-- Multi-Agent System Architecture
-- RAG Implementation & Optimization
-- Prompt Engineering & Chain-of-Thought
-- Agent Orchestration & Tool Integration
-
-**Computer Vision**
-- Object Detection & Segmentation
-- Image Classification & Recognition
-- Video Processing & Real-time Analytics
-- OCR & Document Understanding
-
-**Machine Learning & Deep Learning**
-- Neural Network Architectures
-- TensorFlow & PyTorch Development
-- Model Training & Optimization
-- Transfer Learning & Fine-tuning
-
-**MLOps & Deployment**
-- Docker Containerization
-- API Development (FastAPI, Flask)
-- Model Versioning & Tracking
-- Cloud Deployment (AWS, GCP)
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=syedmusadiqhussain&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=syedmusadiqhussain&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=F8D866)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=syedmusadiqhussain&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF)
-
-</div>
+**Tech:** n8n, OpenAI API, PostgreSQL  
+**Features:** Conditional logic, monitoring, error handling
 
 ---
 
 ## 🏆 Achievements
 
-- 🌟 Built 20+ production-ready AI/ML projects
-- 📚 Specialized in AI agents and autonomous systems
-- 🎓 Expert in computer vision and deep learning
-- 💡 Active contributor to AI/ML community
+- ✅ Built **20+ AI/ML projects**
+- 🤖 Specialized in **AI Agents & Autonomous Systems**
+- 👁 Strong expertise in **Computer Vision**
+- 🚀 Delivered **end-to-end AI solutions**
 
 ---
 
-## 🌐 Connect With Me
+## 📊 GitHub Stats
 
 <div align="center">
 
-| Platform | Link |
-|----------|------|
-| 📧 **Email** | [syedmusadiqhussain9@gmail.com](mailto:syedmusadiqhussain9@gmail.com) |
-| 💼 **LinkedIn** | [Syed Musadiq Hussain](https://www.linkedin.com/in/syed-musadiq-hussain-9ba797336/) |
-| 💻 **GitHub** | [@syedmusadiqhussain](https://github.com/syedmusadiqhussain) |
-| 📊 **Kaggle** | [syedmusadiqhussain](https://www.kaggle.com/syedmusadiqhussain) |
-| 🎥 **YouTube** | [@SyedMusadiqHussain-v8w](https://www.youtube.com/@SyedMusadiqHussain-v8w) |
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=syedmusadiqhussain&show_icons=true&theme=radical&hide_border=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=syedmusadiqhussain&theme=radical&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=syedmusadiqhussain&layout=compact&theme=radical&hide_border=true)
 
 </div>
 
 ---
 
-## 💡 Open For
+## 🤝 Open To
 
-- 💼 Freelance AI/ML Projects
-- 🤝 Open Source Collaborations  
-- 🎓 Mentoring & Knowledge Sharing
-- 💡 Research Partnerships
-- 🚀 Innovative AI Projects
+- 💼 AI/ML Freelance & Full-Time Roles
+- 🤝 Open Source Collaboration
+- 🎓 Mentorship & Knowledge Sharing
+- 🔬 Applied AI Research
+- 🚀 Startup & Product Development
 
 ---
 
 <div align="center">
 
-### ⭐ Show Some Love!
+### ⭐ Let’s Build Intelligent Systems Together
 
-**Made with ❤️ and lots of ☕ by Syed Musadiq Hussain**
-
-![Visitor Count](https://profile-counter.glitch.me/syedmusadiqhussain/count.svg)
+**Made with ❤️ by Syed Musadiq Hussain**
 
 </div>
